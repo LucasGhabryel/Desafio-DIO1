@@ -4,7 +4,7 @@ for (let HeroiLV = 0; HeroiLV <= 10000; HeroiLV++)
 
     { 
     console.log(HeroiLV)
-    console.log ("O Heroi " + Heroi + " Subio de Level!")
+    console.log ("O Heroi " + Heroi + " Ganhou Xp!")
    
    switch (HeroiLV){
     case 1:
@@ -42,6 +42,7 @@ for (let HeroiLV = 0; HeroiLV <= 10000; HeroiLV++)
      HeroiRank = "Imortal"
       console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
       break
+    
     case 10000:
     HeroiRank = "Radiante"
     console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
