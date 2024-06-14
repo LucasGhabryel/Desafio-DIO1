@@ -1,45 +1,53 @@
+let HeroiRank = "Ferro"
 let Heroi = "Lucas"
-for (let HeroiLV = 1; HeroiLV <= 10000; HeroiLV++)
-{ 
+for (let HeroiLV = 0; HeroiLV <= 10000; HeroiLV++)
+
+    { 
     console.log(HeroiLV)
     console.log ("O Heroi " + Heroi + " Subio de Level!")
-
+   
    switch (HeroiLV){
     case 1:
-      console.log("O Heroi está rank Ferro")
-      break
+    HeroiRank = "Ferro"
+    console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+     break 
 
     case 1001:
-      console.log("O Heroi está rank Bronze")
+       HeroiRank = "Bronze"
+        console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
       break
 
     case 2001:
-      console.log("O Heroi está rank Prata")
-      break
+       HeroiRank = "Prata"
+        console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+     break
 
     case 5001:
-      console.log("O Heroi está rank Ouro")
+     HeroiRank = "Ouro"
+  console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
       break
 
     case 7001:
-      console.log("O Heroi está rank Platina")
-      break
+      HeroiRank = "Platina"
+      console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+     break
 
     case 8001:
-        console.log("O Heroi está rank Ascendente")
-        break
+      HeroiRank = "Ascendente"
+      console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+     break
+        
 
     case 9001:
-        console.log("O Heroi está rank Imortal")
-        break  
-
+     HeroiRank = "Imortal"
+      console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+      break
     case 10000:
-        console.log("O Heroi " + Heroi + " está Nivel Radiante!")
-        
+    HeroiRank = "Radiante"
+    console.log("O Heroi de Nome " + Heroi + " está no nivel " + HeroiRank + "!")
+    break
         }
 
-
+ 
 
 }
-
-
