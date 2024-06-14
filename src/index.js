@@ -1,3 +1,4 @@
+
 let HeroiRank = "Ferro"
 let Heroi = "Lucas"
 for (let HeroiLV = 0; HeroiLV <= 10000; HeroiLV++)
